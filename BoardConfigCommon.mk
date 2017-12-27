@@ -111,4 +111,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2671771648
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/sony/shinano-common/rootdir/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
+#TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
+
+# TWRP Config
+include device/sony/shinano-common/twrp.mk
+
